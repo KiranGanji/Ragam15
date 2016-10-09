@@ -1,0 +1,818 @@
+@font-face{
+font-family: 'Raleway-Light';
+src: url('../fonts/Raleway-Light.ttf');
+}
+
+@font-face{
+font-family: 'Roboto-Regular';
+src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+font-family: 'Roboto-Thin';
+src: url('../fonts/Roboto-Thin.ttf');
+}
+
+@font-face{
+font-family: 'OpenSans-Light';
+src: url('../fonts/OpenSans-Light.ttf');
+}
+@font-face{
+font-family: 'helveticaneue-webfont';
+src: url('../fonts/helveticaneue-webfont.ttf');
+}
+
+body{
+	/*overflow: hidden;*/
+	margin: 0px;
+	padding: 0px;
+	background:#000000;
+	overflow: hidden;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	color:#ffffff;
+	text-decoration: none;
+}
+#background{
+	position: fixed;
+	width:100%;
+	height:100%;
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../images/bg.jpg");
+	z-index:-1;
+}
+#background2{
+	position: fixed;
+	width:100%;
+	height:100%;
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index:-1;
+	/*background-image: url("../images/ragam_logo.jpg");*/
+}
+.panel{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	position: relative;
+}
+.panel h2 { 
+   position: absolute; 
+   top: 30%; 
+   width: 100%; 
+   text-align:center;
+   font-family:Roboto-Thin;
+   font-weight:normal;
+   font-size:4vw;
+   color:#20c068;
+   -webkit-font-smoothing: antialiased;
+   text-shadow: -5px 0px #343946;
+}
+
+.mainlogo{
+   position: absolute; 
+   top: 47%; 
+   left: 50%;
+   width:80px;
+   height:80px;
+   margin-left:-40px;
+
+}
+
+.mainlogoimg{
+
+background:#20c068;
+text-align:center;
+}
+
+.logoimg-main{
+	width:80px;
+	height:80px;
+	background:#087945;
+	box-shadow:5px 5px 5px #000000;
+}
+.logoimg-main:hover{
+background:#fff;
+transition: all 0.8s ease;
+}
+
+/*#panel1{
+	background-color: #ffffff;
+}*/
+#panel2{
+}
+#panel3{
+}
+#panel4{
+}
+#panel7{
+	position: relative;
+}
+/* Navigation Panel*/
+#nav-panel{
+	width: 100%;
+	height:35px;
+	background-color: #000000;
+	color:#20c068;
+	position: fixed;
+	z-index: 1000;
+	border-bottom:1px solid #20c068;
+}
+.nav-panel-menus{
+	width: 14.2%;
+	height:100%;
+	text-align: center;
+	line-height: 35px;
+	font-family: 'Roboto-Thin';
+	font-size: 1.4vw;
+	float: left;
+	color:#20c068;
+}
+.Ragam-Nav{
+	width:50px;
+	height:50px;
+	position:absolute;
+	border-bottom-right-radius:25px;
+	border-bottom-left-radius:25px;
+	left: 50%;
+	top:0%;
+	margin-left: -25px;
+	background-color: #000000;
+}
+#ragam-logo-nav{
+	width:48px;
+	height:48px;
+	border:1px solid #20c068;
+	border-radius:50px;
+	transition: all 0.8s ease;
+	background-color: #000000;
+}
+
+#ragam-logo-nav:hover{
+	border:1px solid #20c068;
+	background-color: #ffffff;
+}
+
+.left-30{
+	width:40%;
+	height: 100%;
+	float: left;
+}
+.right-70{
+	width: 56%;
+	height:100%;
+	float:left;
+}
+.left-40{
+	width:40%;
+	height: 100%;
+	float: left;
+	-webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.right-60{
+	width: 56%;
+	height:100%;
+	float:left;
+	padding:0px 0px 0px 20px;
+	font-family: 'Raleway-Light';
+	font-size: 25px;
+	line-height: 100px;
+	-webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.top-part-useless{
+	width:100%;
+	height:60px;
+}
+.top-part-useless2{
+	width:100%;
+	height:50px;
+}
+.top-part-one{
+	width:100%;
+	height:20%;
+}
+.gal{
+	transform:scale(1);
+	transition:all .5s;
+	word-wrap: break-word;
+	margin:6%;
+	padding:0px 0px 0px 0px;
+	height: 45%;
+}
+.top-div{
+	position: relative;
+	width:33%;
+	margin-top: 10px;
+	float: left;
+	height: 80%;
+}
+#box1{
+	color:#000000;
+	background-color: #2AC570;
+}
+#box2{
+	background-color: #252932;
+	opacity:0.6;
+	color:2AC570;
+}
+#box3{
+	color:#000000;
+	background-color: #2AC570;
+}
+#box4{
+	background-color: #252932;
+	opacity:0.6;
+	color:2AC570;
+}
+#box5{
+	color:#000000;
+	background-color: #2AC570;
+}
+#box6{
+	background-color: #252932;
+	opacity:0.6;
+	color:2AC570;
+}
+#box7{
+	color:#000000;
+	background-color: #2AC570;
+}
+#box8{
+	background-color: #252932;
+	opacity:0.6;
+	color:2AC570;
+}
+#box9{
+	color:#000000;
+	background-color: #2AC570;
+}
+#box10{
+	background-color: #252932;
+	opacity:0.6;
+	color:2AC570;
+}
+#box11{
+	color:#000000;
+	background-color: #2AC570;
+}
+#box12{
+	background-color: #252932;
+	opacity:0.6;
+	color:2AC570;
+}
+.head-part{
+	width: 100%;
+	height:20%;
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: 'Raleway-Light';
+	padding:3px 0px 0px 0px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.body-part{
+	width:95%;
+	height:80%;
+	font-family: 'Raleway-Light';
+	padding: 2.5%;
+	text-align: justify;
+	line-height: 2vw;
+	font-size:1.2vw;
+}
+.body-part-1{
+	width:100%;
+	height:30px;
+	text-align: center;
+	line-height: 1.2vw;
+	font-size: 2.2vw;
+}
+.body-part-2{
+	width:100%;
+	height:120px;
+	line-height: 2vw;
+}
+@media all and (max-width: 767px) {
+    .timeline_pic{
+		font-size: 2vh;
+		line-height: 3vh;
+    }
+    .body-part{
+		font-size:2.2vh;
+		line-height: 1.8vh;
+	}
+	.body-part-1{
+		line-height: 1.2vh;
+		font-size: 3.2vh;
+	}
+	.body-part-2{
+		line-height: 3 vh;
+	}
+	.body-part-right{
+		line-height: 2.2vh;
+	}
+}
+.body-part-right{
+	width:100%;
+	height:120px;
+	line-height: 2.2vw;
+	float: left;
+	padding-top: 15px;
+}
+/*************************************************Main navigation********************************************************/
+.main-link{
+	color:#20c068;
+	transition: all 0.8s ease;
+	font-size:1.4vw;
+}
+.main-link:hover{
+	color:#fff !important; 
+	cursor: pointer !important;
+}
+/*********************************************main page***************************************************/
+#bg{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:0px;
+	opacity: 1;
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../images/bg.jpg");
+	z-index:-1;
+}
+.homebanner{
+width:100%;
+height:100%;
+}
+
+.hometitle{
+margin-top:38%;
+text-align:center;
+}
+
+#bgtexture{
+	position: absolute;
+	margin-top:35px;
+	width:100%;
+	height:100%;
+	background-position: 0px 0px;
+	background-image:url('../images/gridme.png');
+}
+
+/*****************************************Contact Us ************************************************************/
+.heading{
+	position: relative;
+	width:100%;
+	height:40px;
+	color:#20c068;
+	font-family: 'Roboto-Thin';
+	padding: 0px 0px 0px 30px;
+	margin:0px;
+	text-align: center;
+}
+.two-percent{
+	width:100%;
+	height:4%;
+}
+.contact-container{
+	width:80%;
+	height: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+.contact-line{
+	width:100%;
+	height:36%;
+	margin: 0px auto;
+}
+.useless{
+	width: 1%;
+	height:100%;
+	float: left;
+}
+.contact-box{
+	width:30%;
+	height: 82%;
+	text-align: center;
+	line-height: 3vw;
+	margin: 1%;
+	padding: 0px 0px 0px 0px;
+	color:#20c068;
+	font-size: 1.5vw;
+	font-family: 'Roboto-Thin';
+	border:1px solid #20c068;
+	float:left;
+	box-shadow: 2px 2px 10px #2ADB7A;
+}
+@media all and (max-width: 767px) {
+	.contact-box{
+		line-height: 7vh;
+		font-size: 2vh;
+	}
+}
+.contact-box:hover{
+	border:0px 0px 0px #2ADB7A;
+}
+/***Tool Tips***/
+.tooltipsy    {
+        padding: 0px;
+        color: #20c068;
+        font-family: 'Roboto-Thin';
+        font-size: 1.5vw;
+}
+
+/*********************************Previous Sponsors*********************************/
+.sponsor-list{
+	width:100%;
+	height:12%;
+	margin-left:3%;
+	padding:0px 10px 0px 10px;
+}
+.sponsor-list ul{
+	width: 90%;
+	height:100%;
+	margin: 0px auto;
+}
+.sponsor-list li{
+	width:11%;
+	height:100%;
+	float:left;
+	padding-left: 10px;
+}
+.sponsor-list li img{
+	max-width:100%;
+	max-height:100%;
+	border:1px solid #20c068;
+}
+.break-point{
+	width:100%;
+	height:4%;
+}
+
+/***********************Chart*****************************/
+#chart_links_container{
+	width:30%;
+	height:70%;
+	float:left;
+}
+#chart_show{
+	position:relative;
+	margin-top: 10px;
+	width: 68%;
+	height:70%;
+	float:left;
+	/*background-color: yellow;*/
+}
+.chart_link{
+	width:50%;
+	margin: 10px 0px 0px 50px;
+	height:50px;
+	color: #20c068;
+	font-family: 'Raleway-Light';
+	text-align: center;
+	line-height: 3vw;
+	cursor: pointer;
+	font-size: 1.5vw;
+	transition: all 0.8s ease;
+}
+@media all and (max-width: 767px) {
+	.chart_link{
+		font-size: 2.5vh;
+		line-height: 
+	}
+}
+.chart_link.selected{
+	background-color: #20c068 !important;
+	color: #000000 !important;
+}
+/*#chart_show{
+	position: relative;
+	width: 40%;
+	height: 40%;
+	
+}*/
+.chart_container{
+	position: absolute;
+	width: 95%;
+	height: 100%;
+	opacity:1;
+    }
+.chart_container img{
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 90%;
+}
+#chart_container1{
+}
+#chart_container2{
+}
+#chart_container3{
+}
+#chart_container4{
+}
+#chart_container5{
+}
+#chart_container6{
+}
+#chart_container7{
+}
+/******************************Social Icons*********************************************/
+.social-icons{
+	width: 400px;
+	height:100px;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	margin-left: -120px;
+}
+.icons-deta{
+	width:64px;
+	height:64px;
+	margin: 5px 5px 5px 10px;
+	float: left;
+}
+.icons-deta a{
+	width:100%;
+	height:100%;
+}
+.facebook{
+	background-image: url('../images/facebook-sprite.png');
+	background-size: 200%;
+	background-position: 100% 0%;
+}
+.facebook:hover{
+	cursor: pointer;
+	background-position: 0% 0%;
+}
+.twitter{
+	background-image: url('../images/twitter-sprite.png');
+	background-size: 200%;
+	background-position: 100% 0%;
+}
+.twitter:hover{
+	cursor: pointer;
+	background-position: 0% 0%;
+}
+.youtube{
+	background-image: url('../images/youtube-sprite.png');
+	background-size: 200%;
+	background-position: 100% 0%;
+}
+.youtube:hover{
+	cursor: pointer;
+	background-position: 0% 0%;
+}
+
+#footer{
+	width:100%;
+	height:25px;
+	text-align: center;
+	font-family: 'Raleway-Light';
+	background-color: #000000;
+	color:#ffffff;
+	position: absolute;
+	bottom: 0%;
+	font-size: 12px;
+	line-height: 25px;
+	color: #20c068;
+}
+#preloader{
+	position: fixed;
+	z-index: 2000;
+	width: 100%;
+	height:100%;
+	background-color: black;
+	background-image: url("../images/preloader.gif");
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #20c068;
+	font-size: 40px;
+}
+
+#preload1{
+	background: url("");
+}
+.background_panel{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center; 
+}
+.border{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url("../images/border.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.Ragam-Nav>a:hover{
+	cursor: pointer;
+}
+#preload_images{
+	background:url("../images/bg/footfall.jpg"),url("../images/bg/05 Participation.jpg"),url("../images/bg/online publi.jpg"),url("../images/bg/06Sneharagam.jpg"),url("../images/bg/Impact.jpg"),url("../images/bg/takeone.jpg"),url("../images/bg/03 Proshows II.jpg"),url("../images/bg/04 Media.jpg"),url("../images/bg/takeone.jpg"),url("../images/bg/default.jpg");
+}
+/*********************************** Arrow Indicator *****************************************/
+.arrow-indicator{
+	width:100px;
+	height:100px;
+	position: absolute;
+	background-image: url('../images/arrow.png');
+	background-repeat: no-repeat;
+	background-size: 60% 60%;
+	bottom: 0px;
+	right:0px;
+	cursor: pointer;
+}
+.arrow-indicator-text{
+	width:110px;
+	height:30px;
+	position: absolute;
+	font-family: 'Raleway-Light';
+	line-height: 25px;
+	color:#20c068;
+	bottom: 100px;
+	right:0px;
+	cursor: pointer;
+}
+clear{
+	clear:both;
+	display: block;
+}
+clear{
+	clear:both;
+	display: block;
+}
+/*********************************** Why Sponsor US ******************************************/
+#panel8{
+	width:100%;
+	height:100%;
+	margin:0px auto;
+}
+#section-container{
+	width: 90%;
+	height:80%;
+	margin:0px auto;
+	margin-top: 10px;
+}
+/*#sections{
+	position: relative;
+	width: 90%;
+	height:80%;
+	margin:0px auto;
+	margin-top:10px;
+	font-family: 'Raleway-Light';
+	color: #20c068;
+}*/
+/*.section{
+	width: 31%;
+	margin: 1% 1%;
+	position: relative;
+	float: left;
+}*/
+/*clear{
+	clear: both;
+	display: block;
+}*/
+.section_headings{
+	width:100%;
+	height: 8%;
+	margin-bottom: 10px;
+}
+.section_heading{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 4px;
+	float: left;
+	width: 33%;
+	color: #000000;
+	height: 100%;
+	border:1px solid #000000;
+	background-color: #20c068;
+	line-height: 200%;
+	font-family: 'Raleway-Light';
+}
+.section_heading:hover{
+	cursor: pointer;
+}
+.selected_section_heading{
+	background-color: white;
+}
+.section_datas{
+	width: 100%;
+	height: 90%;
+	position: relative;
+}
+.section_data{
+	position: absolute;
+	width: 100%;
+}
+.section_data_each{
+	width:45%;
+	margin-bottom: 5px;
+	font-size: 17px;
+	color: #ffffff;
+	float:left;
+	font-family: 'Raleway-Light';
+}
+.content-ins{
+	font-size: 1.4vw;
+	text-align: center;
+}
+.section_data_each ul{
+	width:100%;
+}
+.section_data_each li{
+	width: 100%;
+	height:32px;
+	list-style: none;
+	margin-bottom: 5px;
+}
+.wps_left{
+	width:45px;
+	height:24px;
+	float:left;
+}
+.wps_left img{
+	float:right;
+	width: 10px;
+	height: 10px;
+	padding-top:10px;
+}
+.wps_right{
+	width: 90%;
+	height:24px;
+	float:left;
+	text-align: center;
+	line-height: 24px;
+}
+.why_sponser_us_link{
+	width:200px;
+	height:30px;
+	position: absolute;
+	top:54%;
+	left:69%;
+	margin-top: -15px;
+	margin-left: -100px;
+	font-family: 'Raleway-Light';
+	font-size: 1.6vw !important; 
+	line-height: 30px;
+	text-align: center;
+	color: #20c068;
+}
+.why_sponser_us_link3{
+	width:200px;
+	height:30px;
+	position: absolute;
+	top:55%;
+	left:50%;
+	margin-top: -15px;
+	margin-left: -100px;
+	font-family: 'Raleway-Light';
+	font-size: 1.6vw !important; 
+	line-height: 30px;
+	text-align: center;
+	color: #20c068;
+}
+.why_sponser_us_link2{
+	width:250px;
+	height:30px;
+	position: absolute;
+	top:54%;
+	left:30%;
+	margin-top: -15px;
+	margin-left: -125px;
+	font-family: 'Raleway-Light';
+	font-size: 1.6vw !important; 
+	line-height: 30px;
+	text-align: center;
+	color: #20c068;
+}
+#size_link{
+	font-size: 2.2vw !important;
+}
+#size_link2{
+	font-size: 2.2vw !important;
+}
+#info{
+	position: absolute;
+	width:200px;
+	height:200px;
+	top:50%;
+	left:50%;
+	margin-left: -100px;
+	margin-top: -100px;
+	font-family: 'Raleway-Light';
+	text-align: center;
+	font-size: 1.6vw;
+	color: #20c068;
+	line-height: 200px;
+}
